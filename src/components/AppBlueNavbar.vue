@@ -5,9 +5,9 @@ export default {
 </script>
 
 <template>
-  
+  navbar
 </template>
 
-<style>
+<style lang="scss" scoped>
 
 </style>

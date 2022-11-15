@@ -5,9 +5,9 @@ export default {
 </script>
 
 <template>
-  
+  F
 </template>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
