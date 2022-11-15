@@ -16,6 +16,30 @@ export default {
           <li>
             <a href="#">Characters</a>
           </li>
+          <li>
+            <a href="#">Comics</a>
+          </li>
+          <li>
+            <a href="#">Movies</a>
+          </li>
+          <li>
+            <a href="#">Tv</a>
+          </li>
+          <li>
+            <a href="#">Games</a>
+          </li>
+          <li>
+            <a href="#">Collectibles</a>
+          </li>
+          <li>
+            <a href="#">Fans</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <a href="#">Shop</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -32,6 +56,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .logo {
+      width: 80px;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      a {
+        color: #484848;
+        margin-left: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: .75rem;
+        font-weight: bold;
+        &:hover {
+          color: #0282F9;
+        }
+      }
+    }
   }
 }
 

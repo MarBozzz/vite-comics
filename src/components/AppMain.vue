@@ -5,9 +5,12 @@ export default {
 </script>
 
 <template>
-  M
+  <main></main>
 </template>
 
 <style lang="scss" scoped>
-
+main {
+  min-height: 155px;
+  background-color: aqua;
+}
 </style>

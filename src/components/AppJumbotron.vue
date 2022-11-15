@@ -5,9 +5,11 @@ export default {
 </script>
 
 <template>
-  J
+  <div class="jumbotron"></div>
 </template>
 
 <style lang="scss" scoped>
-
+.jumbotron {
+  min-height: 130px;
+}
 </style>
