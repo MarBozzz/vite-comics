@@ -205,6 +205,9 @@ footer {
             a {
               text-decoration: none;
               color: #959595;
+              &:hover {
+                color: white;
+              }
             }
           } 
         }
@@ -235,6 +238,10 @@ footer {
         font-size: 1.1rem;
         font-weight: 800;
         border: 2px solid #0282F9;
+        &:hover {
+          border: 2px solid white;
+          background-color: #0282F9;
+        }
         a {
           text-decoration: none;
           color: white;

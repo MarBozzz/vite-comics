@@ -8,9 +8,9 @@ export default {
 
   <header>
     <div class="container">
-      <div class="logo">
+      <a href="#" class="logo">
         <img src="/public/dc-logo.png" alt="Logo DC">
-      </div>
+      </a>
       <nav>
         <ul>
           <li>
@@ -56,22 +56,34 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     .logo {
       width: 80px;
     }
-    nav ul {
-      display: flex;
-      list-style: none;
-      a {
-        color: #484848;
-        margin-left: 40px;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: .75rem;
-        font-weight: bold;
-        &:hover {
-          color: #0282F9;
+    nav {
+      height: 100%;
+      ul {
+        display: flex;
+        list-style: none;
+        height: 100%;
+        li {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          a {
+            height: 100%;
+            line-height: 120px;
+            color: #484848;
+            margin-left: 40px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: .75rem;
+            font-weight: bold;
+            border-bottom: 5px solid white;
+            &:hover, &.active {
+              color: #0282F9;
+              border-bottom: 5px solid #0282F9;
+            }
+          }
         }
       }
     }
