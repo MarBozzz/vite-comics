@@ -124,15 +124,20 @@ export default {
   <main>
 
     <div class="cards">
+
       <div class="container">
         <AppCard v-for="(card, index) in products" :key="index" 
         :cardImage="card.thumb"
         :cardTitle="card.series"
         />
-        
       </div>
-    
+
+      <div class="load-more">
+        <a class="btn" href="#">Load More</a>
+      </div>
+
     </div>
+
     <section>
   
       <div class="lower container">
@@ -158,12 +163,40 @@ export default {
 
 <style lang="scss" scoped>
 .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   height: 666px;
   background-color: #1C1C1C;
   .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+}
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 35px; 
+  background-color: #0282F9;
+  margin-bottom: 20px;
+  &:hover {
+      border: 2px solid #0282F9;
+      background-color: white;
+      color: #0282F9;
+      a {
+        color: #0282F9;
+      }
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
   }
 }
 section {
