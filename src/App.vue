@@ -20,7 +20,6 @@ export default {
 <template>
   <AppHeader />
   <AppJumbotron />
-  <AppBlueNavbar />
   <AppMain />
   <AppFooter />
 </template>

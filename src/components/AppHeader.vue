@@ -9,7 +9,7 @@ export default {
   <header>
     <div class="container">
       <a href="#" class="logo">
-        <img src="/public/dc-logo.png" alt="Logo DC">
+        <img src="/dc-logo.png" alt="Logo DC">
       </a>
       <nav>
         <ul>
